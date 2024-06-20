@@ -154,7 +154,7 @@ def check_isha_time():
                                access_token=access_token,
                                access_token_secret=access_token_secret)
 
-        text = ".. نماز عشاعهه " + str(final_time)
+        text = ".. نماز عشاء" + str(final_time)
         client.create_tweet(text=text)
         print(f"tweet send >> {text}")
 

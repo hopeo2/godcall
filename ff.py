@@ -51,7 +51,7 @@ def check_sobh_time():
                                access_token=access_token,
                                access_token_secret=access_token_secret)
 
-        text = "//کاپیتان .. نماز صبحه " + str(adhan_sobh_time)
+        text = ".. نماز صبحه " + str(adhan_sobh_time)
         client.create_tweet(text=text)
         print(f"tweet send >> {text}")
 
@@ -71,7 +71,7 @@ def check_zohr_time():
                                access_token=access_token,
                                access_token_secret=access_token_secret)
 
-        text = "//کاپیتان .. نماز ظهره " + str(final_time)
+        text = ".. نماز ظهره " + str(final_time)
         client.create_tweet(text=text)
         print(f"tweet send >> {text}")
 
@@ -91,7 +91,7 @@ def check_asr_time():
                                access_token=access_token,
                                access_token_secret=access_token_secret)
 
-        text = "//کاپیتان .. نماز عصره " + str(final_time)
+        text = ".. نماز عصره " + str(final_time)
         client.create_tweet(text=text)
         print(f"tweet send >> {text}")
 
@@ -111,7 +111,7 @@ def check_magh_time():
                                access_token=access_token,
                                access_token_secret=access_token_secret)
 
-        text = "//کاپیتان .. نماز مغربه " + str(final_time)
+        text = ".. نماز مغربه " + str(final_time)
         client.create_tweet(text=text)
         print(f"tweet send >> {text}")
 
@@ -131,7 +131,7 @@ def check_isha_time():
                                access_token=access_token,
                                access_token_secret=access_token_secret)
 
-        text = "//کاپیتان .. نماز عشاعهه " + str(final_time)
+        text = ".. نماز عشاعهه " + str(final_time)
         client.create_tweet(text=text)
         print(f"tweet send >> {text}")
 

@@ -2,7 +2,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 
 def func1():
     # Function 1 logic here
-    print("Function 1 executed")
+    print("Function 1 executedd")
 
 def func2():
     # Function 2 logic here

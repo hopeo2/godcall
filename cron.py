@@ -23,6 +23,6 @@ var = 0
 while True:
     text = "hello" + str(var)
     client.create_tweet(text=text)
-    print(f"tweet send >> {text}")
+    print(f"tweet sendd >> {text}")
     var += 1
     time.sleep(5)

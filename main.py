@@ -96,7 +96,7 @@ def check_zohr_time():
 
         text = ".. نماز ظهره " + str(final_time)
         client.create_tweet(text=text)
-        print(f"tweet send >> {text}")
+        print(f"tweet sendd >> {text}")
 
 
 def check_asr_time():

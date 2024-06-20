@@ -47,7 +47,7 @@ client_v2 = tweepy.Client(consumer_key=twitter_auth_keys['consumer_key'], consum
                           'access_token'], access_token_secret=twitter_auth_keys['access_token_secret'], bearer_token=twitter_auth_keys['access_bearer_token'])
 
 # Upload media and get media_id
-media_path = "capitandola.jpg"
+media_path = "example.jpg"
 media = api_v1.media_upload(filename=media_path)
 media_id = media.media_id
 

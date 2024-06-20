@@ -32,7 +32,7 @@ def convert_to_24h(time_str, is_pm=False):
     hours = f"{hours:02d}"
     return f"{hours}:{minutes}"
 
-text = "💀کاپیتان .. نماز صبحه " + str(adhan_sobh_time)
+text = ".. نماز صبحه " + str(adhan_sobh_time)
 print(text)
 final_time = convert_to_24h(adhan_what_time, is_pm=True)
 print(adhan_what_time, adhan_sobh_timee, final_time)

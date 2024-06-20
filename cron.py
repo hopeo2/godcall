@@ -21,7 +21,7 @@ client = tweepy.Client(bearer_token=bearer_token,
 var = 0
 
 while True:
-    text = "hello💀" + str(var)
+    text = "hello" + str(var)
     client.create_tweet(text=text)
     print(f"tweet send >> {text}")
     var += 1
